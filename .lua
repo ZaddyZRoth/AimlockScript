@@ -30,6 +30,8 @@ function WindowTable:CreateWindow(Name)
     MainFrame.BorderSizePixel = 0
     MainFrame.Position = UDim2.new(0.0248640236, 0, 0.334155351, 0)
     MainFrame.Size = UDim2.new(0, 461, 0, 264)
+    MainFrame.Active = true
+    MainFrame.Draggable = true
 
     UICorner.CornerRadius = UDim.new(0, 3)
     UICorner.Parent = MainFrame
