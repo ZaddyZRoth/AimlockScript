@@ -3,7 +3,6 @@ local WindowTable = {}
 local TweenService = game:GetService("TweenService")
 
 function WindowTable:CreateWindow(Name)
-    
     local Comet = Instance.new("ScreenGui")
     local MainFrame = Instance.new("Frame")
     local UICorner = Instance.new("UICorner")
@@ -133,7 +132,6 @@ function WindowTable:CreateWindow(Name)
 
 
     function TabHandler:CreateTab(tabname)
-
         tabname = tabname or "New Tab"
         local tabButton = Instance.new("TextButton")
         local tabCorner = Instance.new("UICorner")
@@ -170,11 +168,8 @@ function WindowTable:CreateWindow(Name)
                     }):Play()
             end
         end
-        game.TweenService:Create(tabButton, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-            BackgroundColor3 = Color3.fromRGB(85, 85, 255)
 
-        }):Play()
-    end)
+        TweenService:Create(tabButton, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {BackgroundColor3 = Color3.fromRGB(85, 85, 255)}):Play() end)
 
         tabCorner.CornerRadius = UDim.new(0, 3)
         tabCorner.Name = "tabCorner"
@@ -292,3 +287,5 @@ function WindowTable:CreateWindow(Name)
         end
         return TabHandler
     end
+
+return WindowTable
