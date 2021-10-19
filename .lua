@@ -9,10 +9,10 @@ local Window = library:AddWindow("Kitten Assist V2 Cracked By Lexo#ooo1", {
 })
 
 
-getgenv().AimlockKey = "C"
-getgenv().UserKey = "SuckMyPussy"
+getgenv().AimlockKey = "q"
+getgenv().UserKey = "FREE"
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pi-314Git/CreditsToStefanuk12/main/ModuleF.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/Module.lua"))()
 Aiming.TeamCheck(false)
 Aiming.VisibleCheck = false
 
