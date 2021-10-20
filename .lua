@@ -12,7 +12,7 @@ local Window = library:AddWindow("free silent Aim + AImlock", {
 getgenv().AimlockKey = "q"
 getgenv().UserKey = "FREE"
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/Module.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaddyZRoth/EditedStefenuk/main/.lua"))()
 Aiming.TeamCheck(false)
 Aiming.VisibleCheck = false
 
